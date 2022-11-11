@@ -17,5 +17,5 @@ def fun2():
     return "<h1> hi {} <br/> your predicted salary is {} </h1>".format(nm,sal)
 
 if __name__ == "__main__" :
-     app.run(debug=True)
+     app.run(host='0.0.0.0')
 
